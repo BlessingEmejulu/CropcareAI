@@ -1,0 +1,12 @@
+{
+  "name": "CropCare AI",
+  "description": "Mobile-first agricultural diagnostic app that uses AI to detect crop diseases and connect farmers with experts.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "AI-powered diagnosis",
+    "Nearby support locator"
+  ]
+}

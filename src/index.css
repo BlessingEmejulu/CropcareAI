@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2D6A4F;
+  --color-primary-light: #D8F3DC;
+  --color-secondary: #74C69D;
+  --color-accent: #FF9F1C;
+  --color-text-dark: #1B4332;
+  --color-text-muted: #52796F;
+  --color-background: #F8F9FA;
+  --color-card: #FFFFFF;
+  --color-border: #E9ECEF;
+  --color-danger: #D90429;
+  
+  --shadow-card: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+@layer base {
+  body {
+    @apply bg-slate-200 text-text-dark font-sans;
+  }
+  
+  h1, h2, h3, h4, font-bold {
+    @apply tracking-tight;
+  }
+}
